@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/assets/css/main.css",
+    "main.js": "/assets/js/app.js",
+    "assets/audio/sound-effect.mp3": "/assets/audio/sound-effect.mp3",
+    "assets/images/background.jpg": "/assets/images/background.jpg",
+    "assets/images/spaceman.png": "/assets/images/spaceman.png",
+    "assets/images/profile.png": "/assets/images/profile.png",
+    "index.html": "/index.html",
+    "main.css.map": "/assets/css/main.css.map",
+    "app.js.map": "/assets/js/app.js.map"
+  },
+  "entrypoints": [
+    "assets/css/main.css",
+    "assets/js/app.js"
+  ]
+}

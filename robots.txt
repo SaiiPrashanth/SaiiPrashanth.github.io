@@ -1,0 +1,37 @@
+# =============================================================================
+# Robots.txt - Game Developer Portfolio
+# =============================================================================
+# This file tells search engine crawlers which pages or files the crawler
+# can or can't request from your site. This is used to avoid overloading
+# your site with requests.
+#
+# For more information about robots.txt, see:
+# https://www.robotstxt.org/robotstxt.html
+# https://developers.google.com/search/docs/advanced/robots/intro
+# =============================================================================
+
+# Allow all web crawlers to access all content
+User-agent: *
+Disallow:
+
+# =============================================================================
+# Sitemap Location (Optional - uncomment if you have a sitemap)
+# =============================================================================
+# Sitemap: https://yourdomain.com/sitemap.xml
+
+# =============================================================================
+# Specific Bot Instructions (Optional examples)
+# =============================================================================
+# User-agent: Googlebot
+# Disallow: /private/
+#
+# User-agent: Bingbot  
+# Disallow: /temp/
+#
+# User-agent: Baiduspider
+# Disallow: /
+
+# =============================================================================
+# Crawl Delay (Optional - uncomment if needed to prevent server overload)
+# =============================================================================
+# Crawl-delay: 1

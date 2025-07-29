@@ -1,0 +1,48 @@
+{
+  "//": "============================================================================",
+  "//": "Progressive Web App Manifest - Game Developer Portfolio",
+  "//": "============================================================================",
+  "//": "This manifest defines how the portfolio appears when installed as a PWA",
+  
+  "short_name": "Game Dev Portfolio",
+  "name": "Game Developer Portfolio - Unity & C# Specialist",
+  
+  "//": "App icons for different device sizes and contexts",
+  "icons": [
+    {
+      "src": "assets/images/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  
+  "//": "PWA Configuration",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  
+  "//": "Theme colors for mobile browsers and PWA",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  
+  "//": "App categorization",
+  "categories": ["productivity", "portfolio", "games"],
+  "scope": "/",
+  "lang": "en-US",
+  
+  "//": "Additional PWA features",
+  "prefer_related_applications": false
+}
